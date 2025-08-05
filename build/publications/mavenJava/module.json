@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.devzwy",
+    "module": "pdf_printer",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pdf_printer-0.0.1.jar",
+          "url": "pdf_printer-0.0.1.jar",
+          "size": 1773,
+          "sha512": "ccc236c455fd94a9b909c093912d7fe80c76c93ce99b6a42533ba37482115bd1babaa21533f6bb52265f449aa1d60e2d88065b2a047c0562f882c985196dce43",
+          "sha256": "940704f12b83fd2c7a5209478d99d21cf19e6ebf7b6f0a79ba2f777bc9123209",
+          "sha1": "b3e18d68cf0cb3a4bcad30dfaf30224b379b3101",
+          "md5": "709ccb4f16f4c44bbadd12385dd4829a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.pdfbox",
+          "module": "pdfbox",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pdf_printer-0.0.1.jar",
+          "url": "pdf_printer-0.0.1.jar",
+          "size": 1773,
+          "sha512": "ccc236c455fd94a9b909c093912d7fe80c76c93ce99b6a42533ba37482115bd1babaa21533f6bb52265f449aa1d60e2d88065b2a047c0562f882c985196dce43",
+          "sha256": "940704f12b83fd2c7a5209478d99d21cf19e6ebf7b6f0a79ba2f777bc9123209",
+          "sha1": "b3e18d68cf0cb3a4bcad30dfaf30224b379b3101",
+          "md5": "709ccb4f16f4c44bbadd12385dd4829a"
+        }
+      ]
+    }
+  ]
+}
